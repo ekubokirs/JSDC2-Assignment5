@@ -1,5 +1,5 @@
 var counter = {
-  count: 0};
+  count: 99};
 
 function render(){
   var source = $('#counter-template').html();
@@ -11,6 +11,7 @@ function render(){
   $("#decrease").click(decrease);
   $("#reset").click(reset);
   // console.log(counter);
+  $('button').click(color);
 }
 
 function increase(){
@@ -42,6 +43,28 @@ function reset(){
   counter = {
     count: 0,
   };
+  render();
+}
+
+function color(){
+  var number = counter.count;
+  console.log(number);
+
+  if (number<0){
+    $('body').removeClass('').addClass('low');
+    console.log('low');
+  }
+  else if (number>100){
+    $('body').removeClass().addClass('high');
+  }
+  // else if (number>100){
+  //   $('body').removeClass().addClass('high');
+  //   console.log('high');
+  // }
+  else{
+    $('body').removeClass();
+    console.log("error");
+  }
   render();
 }
 

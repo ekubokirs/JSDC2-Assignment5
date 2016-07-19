@@ -1,6 +1,20 @@
-.high{
-  background-color:red;
+body{
+  background-color: MediumOrchid;
 }
+.high{
+  background-color: Crimson;
+}
+
 .low{
-  background-color:blue;
+  background-color: MediumBlue;
+}
+
+.counter{
+  background-color: white;
+  border: 1px solid black;
+  font: 20px;
+  text-align: center;
+  width: 250px;
+  margin: 50px auto;
+  padding: 20px;
 }
