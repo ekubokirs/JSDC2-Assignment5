@@ -48,11 +48,11 @@ function reset(){
 
 function color(){
   var number = counter.count;
-  console.log(number);
+  // console.log(number);
 
   if (number<0){
     $('body').removeClass('').addClass('low');
-    console.log('low');
+    // console.log('low');
   }
   else if (number>100){
     $('body').removeClass().addClass('high');
@@ -63,7 +63,7 @@ function color(){
   // }
   else{
     $('body').removeClass();
-    console.log("error");
+    // console.log("error");
   }
   render();
 }

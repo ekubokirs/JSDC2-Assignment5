@@ -1,20 +1,26 @@
 body{
-  background-color: MediumOrchid;
+  background-color: Linen;
 }
 .high{
-  background-color: Crimson;
+  background-color: IndianRed;
 }
 
 .low{
-  background-color: MediumBlue;
+  background-color: PowderBlue;
 }
 
 .counter{
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   font: 20px;
   text-align: center;
   width: 250px;
   margin: 50px auto;
   padding: 20px;
+}
+
+button{
+  background-color: FloralWhite;
+  border: 1px solid black;
+  margin: 10px 1px;
 }
