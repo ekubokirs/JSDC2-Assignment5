@@ -1,5 +1,5 @@
 var counter = {
-  count: 99};
+  count: 0};
 
 function render(){
   var source = $('#counter-template').html();
